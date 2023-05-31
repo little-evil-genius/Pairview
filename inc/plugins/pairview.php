@@ -296,7 +296,7 @@ function pairview_install(){
     $db->insert_query("templates", $insert_array);
     
     $insert_array = array(
-        'title' => 'pairview_add_link',
+        'title' => 'pairview_add_upload',
         'template' => $db->escape_string('<div class="thead">{$lang->pairview_add_nav}</div>
         <div class="pairview_lists-description">{$lang->pairview_add_desc}</div>
         <form method="post" action="misc.php?action=pairview" id="new_pairs" enctype="multipart/form-data">
