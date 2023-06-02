@@ -1721,8 +1721,8 @@ function pairview_misc() {
             $pic_one = $folder_path."/".$edit['pic_one'];
             $pic_two = $folder_path."/".$edit['pic_two'];
         } else {
-            $pic_one = $pair['pic_one'];
-            $pic_two = $pair['pic_two'];
+            $pic_one = $edit['pic_one'];
+            $pic_two = $edit['pic_two'];
         }
  
         // Kategorie Dropbox generien
