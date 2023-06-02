@@ -20,7 +20,7 @@ if(class_exists('MybbStuff_MyAlerts_AlertTypeManager')) {
 function pairview_info(){
 	return array(
 		"name"		=> "Pärchenübersicht",
-		"description"	=> "Pluginbeschreibung",
+		"description"	=> "Dieses Plugin fügt eurem Forum eine interaktive Pärchenübersicht hinzu. ",
 		"author"	=> "little.evil.genius",
 		"authorsite"	=> "https://storming-gates.de/member.php?action=profile&uid=1712",
 		"version"	=> "2.0",
