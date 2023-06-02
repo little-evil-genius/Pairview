@@ -52,7 +52,7 @@ Alle Templates wurden ohne Tabellen-Struktur gecodet. Das Layout wurde auf ein M
 # Neues CSS - pairview.css
 Es wird automatisch in jedes bestehende und neue Design hinzugefügt. Man sollte es einfach einmal abspeichern, bevor man dies im Board mit der Untersuchungsfunktion bearbeiten will, da es dann passieren kann, dass das CSS für dieses Plugin in einen anderen Stylesheet gerutscht ist, obwohl es im ACP richtig ist.
 
-# neuer Ordner
+# Neuer Ordner - pairview
 Es wurde ein neuer Ordner mit dem Namen pairview im Ordner uploads erstellt. In diesem Ordner werden die Icons hochgeladen, falls die Upload Funktion aktiviert wurde. 
 
 # Account löschen
