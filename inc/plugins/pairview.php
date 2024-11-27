@@ -23,7 +23,7 @@ function pairview_info(){
 		"description"	=> "Dieses Plugin fügt eurem Forum eine interaktive Pärchenübersicht hinzu. ",
 		"author"	=> "little.evil.genius",
 		"authorsite"	=> "https://storming-gates.de/member.php?action=profile&uid=1712",
-		"version"	=> "2.0",
+		"version"	=> "2.0.1",
 		"compatibility" => "18*"
 	);
 }
@@ -993,7 +993,7 @@ function pairview_settings_change(){
 
     $result = $db->simple_select('settinggroups', 'gid', "name='pairview'", array("limit" => 1));
     $group = $db->fetch_array($result);
-    $pairview_settings_peeker = ($mybb->input['gid'] == $group['gid']) && ($mybb->request_method != 'post');
+    $pairview_settings_peeker = ($mybb->get_input('gid') == $group['gid']) && ($mybb->request_method != 'post');
 }
 function pairview_settings_peek(&$peekers){
     global $mybb, $pairview_settings_peeker;
